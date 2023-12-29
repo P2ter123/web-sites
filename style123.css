@@ -1,0 +1,28 @@
+    /* Resetare stiluri implicite ale browser-ului */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      /* Stilizare buton */
+      .buton-profesional {
+        display: inline-block;
+        padding: 12px 24px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 2px solid #6e6e6e; /* Culoarea borderului butonului */
+        color: #7c7c7c; /* Culoarea textului */
+        background-color: transparent; /* Fundal transparent */
+        transition: all 0.3s ease;
+        margin: 10px; /* Spațiere între butoane */
+      }
+      
+      /* Stilizare buton la hover */
+      .buton-profesional:hover {
+        background-color: #818181; /* Schimbarea culorii de fundal la hover */
+        color: #ffffff; /* Schimbarea culorii textului la hover */
+      }
+      

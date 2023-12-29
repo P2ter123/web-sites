@@ -1,0 +1,62 @@
+/* Resetare stiluri implicite ale browser-ului */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Stilizare buton */
+  .buton-profesional {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #000000; /* Culoarea borderului butonului */
+    color: #000000; /* Culoarea textului */
+    background-color: transparent; /* Fundal transparent */
+    transition: all 0.3s ease;
+  }
+  
+  /* Stilizare buton la hover */
+  .buton-profesional:hover {
+    background-color: #ffffff; /* Schimbarea culorii de fundal la hover */
+    color: #464646; /* Schimbarea culorii textului la hover */
+  }
+  
+/* ... alte stiluri ... */
+
+/* Stiluri pentru ecranele mici (dispozitive mobile) */
+@media screen and (max-width: 768px) {
+    /* Exemplu: Ajustarea dimensiunii textului */
+    h2 {
+      font-size: 24px;
+    }
+  
+    /* Exemplu: Reducerea padding-ului sau margin-ului pentru a folosi spațiul mai eficient */
+    .hero-section .content {
+      padding: 0 10px; /* Modifică padding-ul aici */
+    }
+  
+    /* Exemplu: Menținerea imaginilor în limite pe ecrane mici */
+    .hero-section {
+      background-size: contain; /* Ajustează dimensiunea imaginilor pentru a le menține în limite */
+    }
+  }
+  
+  /* Resetare stiluri implicite ale browser-ului */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stiluri pentru container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
